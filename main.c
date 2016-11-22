@@ -6,7 +6,7 @@
 int main(void)
 {
     FILE *fp;
-    fp = fopen("C:/Users/Pantelli/Documents/MATLAB/MEX/test", "w+");
+    fp = fopen("test", "w+");
 
     printf("long long: %d\n", sizeof(long long));
     printf("long %d\n", sizeof(long));
